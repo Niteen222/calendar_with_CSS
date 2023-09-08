@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Calender{
+    margin: auto;
+    max-width: 800px;
+    font-family: serif;
+    font-weight: bold;
+    color: black;
+    padding-top: 50px;
+}
+.month{
+    text-align: center;
+    background: white;
+    font-size: 80px;
+    letter-spacing: 1px;
+    color: black;
+    border: 2px solid rgb(0, 0, 0);
+
+}
+table,th,td{
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 30px;
+    border-collapse: collapse;
+    border: 5px solid black;
+    font-family:Elephant;
+
+}
+tr,td,th{
+    padding: 10px;
+}
+th{
+    background-color: green;
+    color: white;
+    font-family: arial black;
+
+}
+td{
+    background: #000d99;
+    color: gold;
+}
+td:hover{
+    background-color: rgb(7, 115, 7);
+} 
+th:hover{
+    background-color: rgb(0, 11, 128);
+}
+.sun{
+    background-color: red;
+}
+body{
+    background-image: url(https://w0.peakpx.com/wallpaper/385/530/HD-wallpaper-june-2021-calender-in-nature-background-june-2021.jpg);
+    background-size:cover;
+}
